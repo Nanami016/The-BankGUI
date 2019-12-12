@@ -37,12 +37,12 @@ public class BankAccount
 		System.out.println("卡号" + id + "余额" + balance);
 	}
 	
-	public static void main(String[] args)
+	/*public static void main(String[] args)
 	{
 		BankAccount a = new BankAccount("ICBC001");
 		a.deposit(1000000);
 		System.out.println(a.getBalance());
 		a.deposit(100);
 		System.out.println(a.getBalance());
-	}
+	}*/
 }
